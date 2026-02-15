@@ -10,7 +10,7 @@ export default async function ViewArticlePage({
   params,
 }: ViewArticlePageProps) {
   const { id } = await params;
-
+  
   // Mock permission check - in a real app, this would come from auth/user context
   const canEdit = true; // Set to true for demonstration
 
